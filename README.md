@@ -1,4 +1,7 @@
 
 # Template.swift
-swift file template
 
+### 使用方式
+```
+sudo python install_template.py
+```
