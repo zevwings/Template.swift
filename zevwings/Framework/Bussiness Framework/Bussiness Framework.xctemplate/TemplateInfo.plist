@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>com.zevwings.customeCocoaTouchFramework</string>
+    <key>Ancestors</key>
+    <array>
+        <string>com.apple.dt.unit.frameworkBase</string>
+        <string>com.apple.dt.unit.languageChoice</string>
+        <string>com.apple.dt.unit.iosBase</string>
+    </array>
+    <key>Concrete</key>
+    <true/>
+    <key>Description</key>
+    <string>This template creates a framework that uses UIKit.</string>
+    <key>SortOrder</key>
+    <integer>1</integer>
+    <key>AssociatedTargetSpecification</key>
+    <dict>
+        <key>PopUpTitle</key>
+        <string>Embed in Application:</string>
+        <key>PopUpDescription</key>
+        <string>The application target that will host this new framework. The application will be set up to link to and embed the new framework.</string>
+        <key>AllowableProductTypes</key>
+        <array>
+            <string>com.apple.product-type.application</string>
+            <string>com.apple.product-type.application.messages</string>
+        </array>
+        <key>AllowablePlatforms</key>
+        <array>
+            <string>com.apple.platform.iphoneos</string>
+        </array>
+        <key>AssociatedTargetIsDependent</key>
+        <true/>
+        <key>AssociatedTargetNeedsProductBuildPhaseInjection</key>
+        <true/>
+    </dict>
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Identifier</key>
+            <string>hasUnitTests</string>
+            <key>Name</key>
+            <string>Include Unit Tests</string>
+            <key>NotPersisted</key>
+            <false/>
+            <key>SortOrder</key>
+            <integer>100</integer>
+            <key>Type</key>
+            <string>checkbox</string>
+            <key>Default</key>
+            <string>true</string>
+            <key>Units</key>
+            <dict>
+                <key>true</key>
+                <dict>
+                    <key>Components</key>
+                    <array>
+                        <dict>
+                            <key>Identifier</key>
+                            <string>com.apple.dt.unit.cocoaTouchFrameworkUnitTestBundle</string>
+                            <key>Name</key>
+                            <string>___PACKAGENAMEASIDENTIFIER___Tests</string>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>hasExamoleProject</string>
+            <key>Name</key>
+            <string>Include Example Project</string>
+            <key>NotPersisted</key>
+            <false/>
+            <key>SortOrder</key>
+            <integer>101</integer>
+            <key>Type</key>
+            <string>checkbox</string>
+            <key>Default</key>
+            <string>true</string>
+            <key>Units</key>
+            <dict>
+                <key>true</key>
+                <dict>
+                    <key>Components</key>
+                    <array>
+                        <dict>
+                            <key>Identifier</key>
+                            <string>com.zevwings.exampleApplication</string>
+                            <key>Name</key>
+                            <string>___PACKAGENAMEASIDENTIFIER___Example</string>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>Targets</key>
+    <array>
+        <dict>
+            <key>TargetIdentifier</key>
+            <string>com.apple.dt.cocoaTouchLibraryOrFrameworkTarget</string>
+            <key>SharedSettings</key>
+            <dict>
+                <key>LD_RUNPATH_SEARCH_PATHS</key>
+                <string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+            </dict>
+        </dict>
+    </array>
+    <key>Nodes</key>
+    <array>
+        <string>Source/Configration/___PACKAGENAMEASIDENTIFIER___.swift</string>
+        <string>Source/NetworkingCenter/___PACKAGENAMEASIDENTIFIER___ExampleApiManager.swift</string>
+        <string>Source/Model/___PACKAGENAMEASIDENTIFIER___ExampleModel.swift</string>
+        <string>Source/Controller/___PACKAGENAMEASIDENTIFIER___ExampleController.swift</string>
+        <string>Source/Controller/___PACKAGENAMEASIDENTIFIER___Example.storyboard</string>
+        <string>Source/Controller/View/___PACKAGENAMEASIDENTIFIER___ExampleView.swift</string>
+        <string>Source/Controller/ViewModel/___PACKAGENAMEASIDENTIFIER___ExampleViewModel.swift</string>
+        <string>Resource/___PACKAGENAMEASIDENTIFIER___.xcassets</string>
+        <string>../Podfile</string>
+        <string>../___PACKAGENAMEASIDENTIFIER___.podspec</string>
+    </array>
+    <key>Definitions</key>
+    <dict>
+        <!-- Target -->
+        <key>___TARGETNAME:c99ExtIdentifier___.h</key>
+        <dict>
+            <key>TargetIdentifiers</key>
+            <array>
+                <string>com.apple.dt.cocoaTouchLibraryOrFrameworkTarget</string>
+            </array>
+            <key>BuildAttributes</key>
+            <array>
+                <string>Public</string>
+            </array>
+        </dict>
+        <!-- Configration -->
+        <key>Source/Configration/___PACKAGENAMEASIDENTIFIER___.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>Configration/___PACKAGENAMEASIDENTIFIER___.swift</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>Configration</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>1</integer>
+        </dict>
+        <!-- 示例Api -->
+        <key>Source/NetworkingCenter/___PACKAGENAMEASIDENTIFIER___ExampleApiManager.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>API/___PACKAGENAMEASIDENTIFIER___ExampleAPI.swift</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>NetworkingCenter</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>10</integer>
+        </dict>
+        <!-- 示例Model -->
+        <key>Source/Model/___PACKAGENAMEASIDENTIFIER___ExampleModel.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>Model/___PACKAGENAMEASIDENTIFIER___ExampleModel.swift</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>Model</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>20</integer>
+        </dict>
+        <!-- 示例Controller -->
+        <key>Source/Controller/___PACKAGENAMEASIDENTIFIER___ExampleController.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>Controller/___PACKAGENAMEASIDENTIFIER___ExampleController.swift</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>Controller</string>
+                <string>ExampleController</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>30</integer>
+        </dict>
+        <!-- Storyboard -->
+        <key>Source/Controller/___PACKAGENAMEASIDENTIFIER___Example.storyboard</key>
+        <dict>
+            <key>Path</key>
+            <string>Controller/___PACKAGENAMEASIDENTIFIER___.storyboard</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>Controller</string>
+                <string>ExampleController</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>99</integer>
+        </dict>
+        <!-- 示例View -->
+        <key>Source/Controller/View/___PACKAGENAMEASIDENTIFIER___ExampleView.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>Controller/___PACKAGENAMEASIDENTIFIER___ExampleView.swift</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>Controller</string>
+                <string>ExampleController</string>
+                <string>View</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>31</integer>
+        </dict>
+        <!-- 示例ViewModel -->
+        <key>Source/Controller/ViewModel/___PACKAGENAMEASIDENTIFIER___ExampleViewModel.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>Controller/___PACKAGENAMEASIDENTIFIER___ExampleViewModel.swift</string>
+            <key>Group</key>
+            <array>
+                <string>Source</string>
+                <string>Controller</string>
+                <string>ExampleController</string>
+                <string>ViewModel</string>
+            </array>
+            <key>SortOrder</key>
+            <integer>32</integer>
+        </dict>
+        <!-- 资源文件 -->
+        <key>Resource/___PACKAGENAMEASIDENTIFIER___.xcassets</key>
+        <dict>
+            <key>Path</key>
+            <string>Images.xcassets</string>
+            <key>Group</key>
+            <string>Reource</string>
+            <key>SortOrder</key>
+            <integer>100</integer>
+        </dict>
+        
+        <!-- Podfile -->
+        <key>../Podfile</key>
+        <dict>
+            <key>Group</key>
+            <string>Supporting Files</string>
+            <key>Beginning</key>
+            <string>#___PACKAGENAMEASIDENTIFIER___'s Podfile
+platform :ios, '8.0'
+
+target '___PACKAGENAMEASIDENTIFIER___' do
+  use_frameworks!
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxMoya'
+
+  # Pods for ___PACKAGENAMEASIDENTIFIER___
+
+#  target '___PACKAGENAMEASIDENTIFIER___Tests' do
+#    # Pods for ___PACKAGENAMEASIDENTIFIER___Tests
+#    pod 'RxBlocking'
+#    pod 'RxTest'
+#  end
+#
+#  target '___PACKAGENAMEASIDENTIFIER___UITests' do
+#    # Pods for ___PACKAGENAMEASIDENTIFIER___UITests
+#  end
+end
+            </string>
+            <key>End</key>
+            <string>  </string>
+        </dict>
+        <key>../___PACKAGENAMEASIDENTIFIER___.podspec</key>
+        <dict>
+            <key>Group</key>
+            <string>Supporting Files</string>
+            <key>Beginning</key>
+            <string>
+Pod::Spec.new do |s|
+
+  s.name         = "___PACKAGENAMEASIDENTIFIER___.swift"
+  s.module_name  = "___PACKAGENAMEASIDENTIFIER___"
+  s.version      = "0.0.1"
+  s.summary      = "___PACKAGENAMEASIDENTIFIER___ 业务模块."
+
+  s.description  = &lt;&lt;-DESC
+  ___PACKAGENAMEASIDENTIFIER___ 业务模块主要功能描述
+                   DESC
+
+  s.homepage     = "https://github.com/zevwings/____PACKAGENAMEASIDENTIFIER___"
+  s.license      = "MIT"
+  s.author       = { "zevwings" => "zev.wings@gmail.com" }
+  s.platform     = :ios, "8.0"
+
+  s.source       = { :git => "https://github.com/zevwings/___PACKAGENAMEASIDENTIFIER___.git", :tag => "#{s.version}" }
+  s.source_files  = "___PACKAGENAMEASIDENTIFIER___/___PACKAGENAMEASIDENTIFIER___.h", "___PACKAGENAMEASIDENTIFIER___/Source/*/*.*"
+  # s.exclude_files = "Classes/Exclude"
+
+  # s.resource  = "icon.png"
+  # s.resources = "Resources/*.png"
+  s.resource_bundles = {
+    '___PACKAGENAMEASIDENTIFIER___' => [
+        '___PACKAGENAMEASIDENTIFIER___/Source/**/*.{storyboard,xib}',
+        '___PACKAGENAMEASIDENTIFIER___/Resource/**/*.{xcassets,json,png,imageset}'
+    ]
+  }
+
+  s.requires_arc = true
+
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.dependency "RxMoya"
+  s.dependency "RxSwift"
+  s.dependency "RxCocoa"
+
+end
+            </string>
+            <key>End</key>
+            <string>  </string>
+        </dict>
+    </dict>
+</dict>
+</plist>

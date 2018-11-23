@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>com.zevwings.exampleApplication</string>
+    <key>Ancestors</key>
+    <array>
+        <string>com.zevwings.cocoaTouchApplicationBase</string>
+    </array>
+    <key>Description</key>
+    <string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
+    <key>SortOrder</key>
+    <integer>1</integer>
+    <key>Nodes</key>
+    <array>
+        <string>ViewController.swift:comments</string>
+        <string>ViewController.swift:imports:importCocoa</string>
+        <string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+        <string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+        <string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+        <string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+        <string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+    </array>
+    <key>Definitions</key>
+    <dict>
+        <key>Base.lproj/Main.storyboard</key>
+        <dict>
+            <key>Path</key>
+            <string>Main.storyboard</string>
+            <key>SortOrder</key>
+            <integer>99</integer>
+        </dict>
+    </dict>
+</dict>
+</plist>
