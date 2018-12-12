@@ -2,23 +2,27 @@
 
 import Foundation
 import RxSwift
+import RxCocoa
 
-class ___FILEBASENAMEASIDENTIFIER___ { }
+protocol ___FILEBASENAMEASIDENTIFIER___Inputs {
+	
+}
 
-extension ___FILEBASENAMEASIDENTIFIER___: ViewModel {
-    
-    typealias Input = Inputter
-    typealias Output = Outputter
-    
-    struct Inputter {
 
-    }
-    
-    struct Outputter {
-        
-    }
-    
-    func transform(inputter input: ___FILEBASENAMEASIDENTIFIER___.Inputter) -> ___FILEBASENAMEASIDENTIFIER___.Outputter {
-    	// 生成Outputter 并返回
-    }   
+protocol ___FILEBASENAMEASIDENTIFIER___Outputs {
+	
+}
+ 
+protocol ___FILEBASENAMEASIDENTIFIER___ViewModelType {
+	var inputs: ___FILEBASENAMEASIDENTIFIER___Inputs { get }
+	var outputs: ___FILEBASENAMEASIDENTIFIER___Outputs { get }
+}
+
+final class ___FILEBASENAMEASIDENTIFIER___ : ___FILEBASENAMEASIDENTIFIER___Inputs, ___FILEBASENAMEASIDENTIFIER___Outputs { 
+
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___ViewModelType {
+	var inputs: ___FILEBASENAMEASIDENTIFIER___Inputs { return self }
+	var outputs: ___FILEBASENAMEASIDENTIFIER___Outputs { return self }
 }

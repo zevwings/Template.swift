@@ -1,6 +1,15 @@
 //___FILEHEADER___
 
 import Foundation
+import Libraries
+
+typealias NavigationBarStyle = Libraries.NavigationBarStyle
+typealias NavigationBarPopupItemStyle = Libraries.NavigationBarPopupItemStyle
+
+typealias ActivityTracker = Libraries.ActivityTracker
+typealias ActivityTrackInfo = Libraries.ActivityTracker.TrackInfo
+typealias AlertActionType = Libraries.AlertActionType
+typealias UIAlertPresentable = Libraries.UIAlertPresentable
 
 final class ___FILEBASENAMEASIDENTIFIER___ {
 

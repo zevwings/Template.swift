@@ -7,7 +7,7 @@
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>ApiManager</string>
+	<string>Request</string>
 	<key>Description</key>
 	<string>A api manager source file.</string>
 	<key>Kind</key>

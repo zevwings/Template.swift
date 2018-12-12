@@ -48,12 +48,12 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 extension ___FILEBASENAMEASIDENTIFIER___ {
     
     // 导航栏样式设置
-    override var preferredNavigationBarStyle: NavigationBarStyle {
+    override var prefersNavigationBarStyle: NavigationBarStyle {
         return <#返回导航栏样式#>
     }
 
     // 返回按钮样式设置
-    override var preferredNavigationBarPopupItemStyle: NavigationBarPopupItemStyle {
+    override var prefersNavigationBarPopupItemStyle: NavigationBarPopupItemStyle {
         return <#返回按钮样式#>
     }
     
