@@ -12,7 +12,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: Serviceable {
     var baseUrl: String {
         switch self {
         case .default:
-            return "http://app.app.idanlu.com"
+            return <#url string#>
         }
     }
 }
