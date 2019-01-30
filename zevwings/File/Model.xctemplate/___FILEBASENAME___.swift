@@ -1,28 +1,11 @@
 //___FILEHEADER___
 
-import Foundation
 import HTTPKit
 import HandyJSON
 
-struct ___FILEBASENAMEASIDENTIFIER___: Model {
-
-}
-
-// MARK: - HandyJSON
-
-extension ___FILEBASENAMEASIDENTIFIER___: HandyJSON {
+public struct ___FILEBASENAMEASIDENTIFIER___ : ModelType {
     
-    mutating func mapping(mapper: HelpingMapper) {
-        
-    }
+    public init () {}
 }
 
-/**
-// MARK: - Equatable
-
-extension ___FILEBASENAMEASIDENTIFIER___ : Equatable {
-    static func == (lhs: ___FILEBASENAMEASIDENTIFIER___, rhs: ___FILEBASENAMEASIDENTIFIER___) -> Bool {
-        return <#lhs.id == rhs.id#>
-    }
-}
-*/
+extension ___FILEBASENAMEASIDENTIFIER___ : HandyJSON { }
