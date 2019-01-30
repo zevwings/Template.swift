@@ -34,7 +34,7 @@ public struct ___FILEBASENAMEASIDENTIFIER___ : Request, Paginator {
     
     /// 请求内容
     public var content: Content {
-        return <#.requestParameters(parameters: <#parameters#>, formatter: .json)#>
+        return <#.requestParameters(parameters: parameters, formatter: .json)#>
     }
     
     /** 设置页码对应的参数Key，默认为`page`，详细内容请阅读 `Paginator` 部分
