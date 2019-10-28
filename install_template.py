@@ -7,7 +7,7 @@ import os
 import shutil
 import subprocess
 
-GITHUB_URL = "https://git.coding.net/zevwings/Template.swift.git"
+GITHUB_URL = "https://github.com/zevwings/Template.swift.git"
 DOWNLOAD_PATH = "./temp_download_dir"
 DEST_PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/"
 
