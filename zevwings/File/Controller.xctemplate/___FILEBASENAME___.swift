@@ -18,6 +18,7 @@ class ___FILEBASENAMEASIDENTIFIER___ : UIViewController {
 }
 
 // MARK: - Override
+
 extension ___FILEBASENAMEASIDENTIFIER___ {
     
     override func setupViewComponets() {
@@ -43,23 +44,26 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
     */
 }
 
-/* 如果使用默认样式，可以删除此处代码
 // MARK: - NavigationBar Configration
+
+/*
+ 如果使用默认样式，可以删除此处代码
+
 extension ___FILEBASENAMEASIDENTIFIER___ {
     
     // 导航栏样式设置
-    override var prefersNavigationBarStyle: NavigationBarStyle {
-        return <#返回导航栏样式#>
+    override var preferredNavigationBarStyle: WSNavigationBarStyle {
+        return .theme
     }
 
     // 返回按钮样式设置
-    override var prefersNavigationBarPopupItemStyle: NavigationBarPopupItemStyle {
-        return <#返回按钮样式#>
+    override var preferredNavigationBarPopupItemStyle: WSNavigationBarPopupItemStyle {
+        return .none
     }
     
     // 重写返回按钮事件
-    override func navigationBarPopupItemClicked(_ sender: Any?) {
-        // 重写返回按钮事件
-    }
+//    override func navigationBarPopupItemClicked(_ sender: Any?) {
+//        // 重写返回按钮事件
+//    }
 }
 */
