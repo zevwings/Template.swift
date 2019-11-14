@@ -32,7 +32,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ : Request {
     }
 
     var transformer: Transformer? {
-        return ModelTransformer()
+        return WSBasicTransformer()
     }
 }
 
