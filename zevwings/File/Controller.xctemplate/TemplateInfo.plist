@@ -7,7 +7,7 @@
 		<string>public.swift-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>Controller</string>
+	<string>ViewController</string>
 	<key>Description</key>
 	<string>A view controller source file.</string>
 	<key>Kind</key>
@@ -16,7 +16,7 @@
 	<string>___FILEBASENAME___.swift</string>
 	<key>Summary</key>
 	<string>A view controller source file</string>
-    <key>SortOrder</key>
-    <string>50</string>
+	<key>SortOrder</key>
+	<string>50</string>
 </dict>
 </plist>
