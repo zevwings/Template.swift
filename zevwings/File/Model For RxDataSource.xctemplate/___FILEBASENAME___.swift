@@ -4,25 +4,25 @@ import HandyJSON
 import RxDataSources
 import Differentiator
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___Item
+// MARK: - ___FILEBASENAMEASIDENTIFIER___
 
-public struct ___FILEBASENAMEASIDENTIFIER___Item : HandyJSON {
+public struct ___FILEBASENAMEASIDENTIFIER___ : HandyJSON {
     
     public init () {}
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Item : IdentifiableType {
-    typealias Identity = String
+extension ___FILEBASENAMEASIDENTIFIER___ : IdentifiableType {
+    public typealias Identity = String
 
-    var identity: String {
+    public var identity: String {
         return content ?? ""
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Item: Equatable {}
+extension ___FILEBASENAMEASIDENTIFIER___: Equatable {}
 
-func == (lhs: ___FILEBASENAMEASIDENTIFIER___Item, rhs: ___FILEBASENAMEASIDENTIFIER___Item) -> Bool {
+public func == (lhs: ___FILEBASENAMEASIDENTIFIER___, rhs: ___FILEBASENAMEASIDENTIFIER___) -> Bool {
     return <#condition#>
 }
 

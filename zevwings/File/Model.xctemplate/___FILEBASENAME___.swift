@@ -10,6 +10,6 @@ public struct ___FILEBASENAMEASIDENTIFIER___ : HandyJSON {
 
 extension ___FILEBASENAMEASIDENTIFIER___: Equatable {}
 
-func == (lhs: ___FILEBASENAMEASIDENTIFIER___, rhs: ___FILEBASENAMEASIDENTIFIER___) -> Bool {
+public func == (lhs: ___FILEBASENAMEASIDENTIFIER___, rhs: ___FILEBASENAMEASIDENTIFIER___) -> Bool {
     return <#conditions#>
 }
