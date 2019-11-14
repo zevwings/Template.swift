@@ -3,9 +3,13 @@
 import HTTPKit
 import HandyJSON
 
-public struct ___FILEBASENAMEASIDENTIFIER___ : ModelType {
+public struct ___FILEBASENAMEASIDENTIFIER___ : HandyJSON {
     
     public init () {}
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ : HandyJSON { }
+extension ___FILEBASENAMEASIDENTIFIER___: Equatable {}
+
+func == (lhs: ___FILEBASENAMEASIDENTIFIER___, rhs: ___FILEBASENAMEASIDENTIFIER___) -> Bool {
+    return <#conditions#>
+}
