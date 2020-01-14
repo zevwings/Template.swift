@@ -30,14 +30,14 @@ final class ___FILEBASENAMEASIDENTIFIER___ : ___FILEBASENAMEASIDENTIFIER___Input
 
 }
 
-// MARK: - ___FILEBASENAMEASIDENTIFIER___ViewModelType
+// MARK: - ___FILEBASENAMEASIDENTIFIER___Type
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewModelType {
+protocol ___FILEBASENAMEASIDENTIFIER___Type {
     var inputs: ___FILEBASENAMEASIDENTIFIER___Inputs { get }
     var outputs: ___FILEBASENAMEASIDENTIFIER___Outputs { get }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___ViewModelType {
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Type {
 	var inputs: ___FILEBASENAMEASIDENTIFIER___Inputs { return self }
 	var outputs: ___FILEBASENAMEASIDENTIFIER___Outputs { return self }
 }
